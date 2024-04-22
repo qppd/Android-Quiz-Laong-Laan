@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModeActivity"
+    android:background="@drawable/modebg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnEasy"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/buttonmadali"
+            android:text="MADALI"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/btnHard"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="50dp"
+            android:text="MAHIRAP"
+            android:background="@drawable/buttonmahirap"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

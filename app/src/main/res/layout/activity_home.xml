@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/home_page">
+    <include layout="@layout/custom_actionbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/istorya"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/buttonistorya"
+            android:padding="10dp"
+            android:text="ISTORYA"
+            android:textColor="#FFF" />
+
+
+        <ImageButton
+            android:id="@+id/patungkol"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/buttonpatungkol"
+            android:text="PATUNGKOL"
+            android:textColor="#FFF" />
+
+        <ImageButton
+            android:id="@+id/tribya"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/buttontribya"
+            android:text="TRIBYA"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
