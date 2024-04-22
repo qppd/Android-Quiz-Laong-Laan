@@ -1,3 +1,4 @@
+# Laon Laaan - Android Studio Java Application
 Android Java Application for a Quiz about Dr. Jose Rizal's Life
 This Android Java application is designed to provide quizzes on the life of Dr. Jose Rizal, the national hero of the Philippines. The quizzes are divided into five chapters, each featuring both hard and easy questions to cater to different levels of knowledge and engagement.
 
